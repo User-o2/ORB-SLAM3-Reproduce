@@ -91,3 +91,10 @@ my_settings.txt
 borrar/*
 
 */ExecMean.txt
+
+# 修复原项目 .gitignore 的过度忽略问题
+!LICENSE
+!Thirdparty/DBoW2/DUtils/Timestamp.cpp
+!Thirdparty/DBoW2/DUtils/Timestamp.h
+!Thirdparty/g2o/g2o/stuff/timeutil.cpp
+!Thirdparty/g2o/g2o/stuff/timeutil.h
