@@ -7,9 +7,9 @@
 
 以下视频为基于 **TUM-VI corridor1_512** 数据集，以 **双目+惯性（Stereo-Inertial）** 模式运行 ORB-SLAM3 的复现效果（8× 加速播放）：
 
-<video src="eval_output/video_show/8x_orb_slam3.mp4" controls width="720">
-  您的浏览器不支持视频播放，请<a href="eval_output/video_show/8x_orb_slam3.mp4">直接访问视频文件</a>。
-</video>
+
+https://github.com/user-attachments/assets/3296d284-6d7e-45f2-903b-c01f2d199c2d
+
 
 ## How to Start
 
@@ -470,4 +470,5 @@ Once ORB-SLAM3 has loaded the vocabulary, press space in the rosbag tab.
 A flag in `include\Config.h` activates time measurements. It is necessary to uncomment the line `#define REGISTER_TIMES` to obtain the time stats of one execution which is shown at the terminal and stored in a text file(`ExecTimeMean.txt`).
 
 ### 9. Calibration
+
 You can find a tutorial for visual-inertial calibration and a detailed description of the contents of valid configuration files at  `Calibration_Tutorial.pdf`
